@@ -1,0 +1,114 @@
+body {
+    background-color: #1E6356;
+   
+    background-position:0%;
+    background-repeat:calc() ;
+    background-size:auto;
+    background-position: left top;
+    background-repeat: repeat;
+    /* background-size: cover; */ /* posibles valores cover y contain */
+    background-attachment: fixed;
+    
+    color:#16355e;
+}
+/* Creamos un estilo para el contenedor principal diferente a la clase .container de Bootstrap para no interferir en sus estilos */
+.principal {
+    background-color: #6EA0A4;
+    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Estilos generales */
+/* ---------- Estilos generales --------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Expletus Sans', cursive;
+    color:#ffffff;
+}
+a, a:link, a:visited {
+    color: #ffffff;
+}
+a:hover, a:focus {
+    color: #041a38;
+}
+.btn {
+    border-radius: 10px;
+}
+.btn-chol1, .btn-chol1:visited {
+    background-color: #041a38;
+    color: #fff;
+}
+.btn-chol1:hover, .btn-chol1:focus, .btn-chol1:visited {
+    background-color: #041a38;
+
+    color: #fff;
+}
+
+
+/* ---------- Navegación principal --------- */
+.nav-principal {
+    margin-bottom: 50px;
+    background-image: url(../img/odina.png);
+    background-color: #083A81 !important
+    
+    
+}
+.nav-principal a, .nav-principal a:link, .nav-principal a:visited {
+    color: #ffffff;
+}
+.nav-principal a:hover, .nav-principal a:focus {
+    color: #ffffff;
+}
+.nav-principal .nav-link.active {
+    color: #ffffff;
+}
+
+/* ---------- Carrusel Home ---------------*/
+.carousel-home {
+    margin-bottom: 40px;
+}
+.carousel-home h5 {
+    color: #ffffff;
+}
+
+/* ------------Bloques internos ------------*/
+.bloque-interno {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* ------------ Mapa ----------- */
+.mapa-emb {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.mapa-emb .embed-responsive-item {
+    width: 100%;
+    height: 450px;
+}
+.pie{
+    background-color: #741C23;
+    color: white;
+}
+
+.contenido {
+    width: 100%;
+}    
+
+.contenedor-max {
+        margin: 0 auto;
+        max-width: 1100px;
+ }
+
+.seccion {
+        align-items: center;
+        display: flex;
+        color: #fff;
+    }
+
+    .img-normalizada{
+        width: 200px;
+        height: 200px;
+    
+    }
